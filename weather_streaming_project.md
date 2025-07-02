@@ -20,10 +20,10 @@ This project demonstrates how to build a **real-time data streaming pipeline** u
 | ----------------- | ------------------------------ | ----------------------------------------- |
 | Event Streaming   | **Apache Kafka**               | Ingest and distribute weather events      |
 | Stream Processing | **Apache Flink**               | Stateful processing, windowing, analytics |
-| Producer Script   | **Python** + Kafka client      | Pulls data from API and produces to Kafka |
-| Sink (optional)   | PostgreSQL / Files / Dashboard | Output of processed data for inspection   |
+| Producer Script   | **Python** + Kafka client      | Pulls data from API and produces to Kafka to simulate a data stream |
+| Sink              | MySQL                          | Output of processed data for inspection   |
 | Orchestration     | **Docker Compose**             | Local environment setup                   |
-| Monitoring (opt)  | Grafana / CLI / Logs           | Visualize output, system performance      |
+
 
 ---
 
